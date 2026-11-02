@@ -145,3 +145,15 @@ h1.post-title{font-family:var(--sans);text-transform:none;letter-spacing:0;font-
 .social a{display:inline-flex;align-items:center;gap:9px;font-family:var(--serif);font-weight:300;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;border:0!important;transition:color .3s,transform .3s}
 .social a:hover{color:var(--taupe);transform:translateY(-2px)}
 .info .social{margin-top:10px}
+
+.s-statement{padding:90px 0 80px}
+.s-statement .statement::before{content:"";display:block;width:56px;height:1px;background:var(--taupe);margin-bottom:28px}
+.s-statement .lead{margin-top:1.6rem;max-width:620px}
+@media(max-width:860px){.s-statement{padding:60px 0 56px}}
+
+/* hero N: smaller, aligned with the text block */
+.hero .mark{top:auto;bottom:10vh;right:9vw;height:46vh;transform:translateY(var(--py,0px))}
+.hero .mark path{animation:draw 3.2s .3s ease forwards,fill2 1.4s 3s ease forwards}
+@keyframes fill2{to{fill-opacity:.28}}
+@media(max-width:860px){.hero .mark{top:26%;bottom:auto;right:7vw;height:28vh;transform:translateY(calc(-50% + var(--py,0px)));opacity:1}}
+@media(prefers-reduced-motion:reduce){.hero .mark path{fill-opacity:.28}}
