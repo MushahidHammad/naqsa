@@ -157,3 +157,8 @@ h1.post-title{font-family:var(--sans);text-transform:none;letter-spacing:0;font-
 @keyframes fill2{to{fill-opacity:.28}}
 @media(max-width:860px){.hero .mark{top:26%;bottom:auto;right:7vw;height:28vh;transform:translateY(calc(-50% + var(--py,0px)));opacity:1}}
 @media(prefers-reduced-motion:reduce){.hero .mark path{fill-opacity:.28}}
+
+/* contrast fixes */
+.taupe{background:#6a5b4e}
+.taupe p,.taupe .lead{color:#ebe4da}
+.meta{color:#b3a391}
